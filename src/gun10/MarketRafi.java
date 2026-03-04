@@ -8,5 +8,17 @@ public class MarketRafi {
          * ayrıca ürün numarası çiftse yanına (kampanya) yazsın
          **/
 
+        for (int raf = 1; raf <= 3; raf++) { //dış döngü : raflar
+            for (int urun = 1; urun <= 4; urun++) { // iç döngü: ürünler
+                System.out.print("Raf" + raf + " " + "-urun" + urun);
+
+                if (urun %2 == 0) {
+                    System.out.print(" (kampanya)");
+                }
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+
     }
 }

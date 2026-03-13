@@ -46,7 +46,7 @@ public class soru6_evEnerjiTüketimi {
 
         System.out.println("yıllık toplam tüketim: " + toplamMaliyet + "kwh");
         System.out.println("yıllık toplam maliyet: " + toplamMaliyet + "TL");
-        System.out.println("aylık ortalama tüketim: " + ortama + "kwh");
+        System.out.println("aylık ortalama tüketim:  " + ortama + "kwh");
 
         int ustundeyseAySayisi = 0;
 
